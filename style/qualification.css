@@ -95,8 +95,8 @@ section#timeline {
   }
   section#timeline article div.inner span.date {
     display: block;
-    width: 60px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     padding: 5px 0;
     position: absolute;
     top: 0;
@@ -199,6 +199,13 @@ section#timeline {
   .table{
      padding-top: 80px;
      background-color: #aabeff;
+     background-image: url('../assets/qtbg.jpg');
+     height: 120vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+     box-shadow: 0 5px 5px -5px #656565;  
+     align-items: center; 
+     background-attachment: fixed;  
      
 
     .header{
@@ -241,7 +248,7 @@ section#timeline {
       -webkit-box-shadow: 0 2px 2px -2px #0E1119;
          -moz-box-shadow: 0 2px 2px -2px #0E1119;
               box-shadow: 0 2px 2px -2px #0E1119;
-              color: #ffffff;
+              color: #00003f;
     }
     
     .container {
@@ -261,22 +268,22 @@ section#timeline {
     
     /* Background-color of the odd rows */
     .container tr:nth-child(odd) {
-        background-color: #323C50;
+        background-color: #b3bfff;
     }
     
     /* Background-color of the even rows */
     .container tr:nth-child(even) {
-        background-color: #2C3446;
+        background-color: #c8d2ff;
     }
     
     .container th {
-        background-color: #1F2739;
+        background-color: #060044;
     }
     
-    .container td:first-child { color: #ffffff; }
+    .container td:first-child { color: #000000; }
     
     .container tr:hover {
-       background-color: #464A52;
+       background-color: #b3ccff;
     -webkit-box-shadow: 0 6px 6px -6px #0E1119;
          -moz-box-shadow: 0 6px 6px -6px #0E1119;
               box-shadow: 0 6px 6px -6px #0E1119;

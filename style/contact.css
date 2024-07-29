@@ -4,7 +4,14 @@
 }
 
   #section_2{
-    background-color: #7691e8;
+    background-color: #b8c9ff;
+    background-image: url('../assets/dd.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 5px 5px -5px #656565;  
+    align-items: center; 
+    background-attachment: fixed;  
   }
   .container {
     width: 100vw;
@@ -16,10 +23,10 @@
   }
   
   .card {
-    background-color: #ffffff;
+    background-color: #b8c9ff;
     padding: 2rem;
     border-radius: 17px;
-    border: 1px solid #d6d6d6;
+    border: 1px solid #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,6 +47,7 @@
     object-fit: cover;
     transform: scale(2.3);
     border: 20px;
+    
   }
   
   .right .contact {
@@ -51,6 +59,7 @@
   
   form .form{
     max-width: 280px;
+    color: #000;
   }
   .form, .address {
     display: flex;
@@ -67,6 +76,7 @@
     padding: 10px 0;
     margin: 5px 0;
     width: 260px;
+    color: #000;
   }
   
   .usersubmit input {
@@ -117,3 +127,6 @@
 
   }
   
+::placeholder{
+  color: #000;
+}
