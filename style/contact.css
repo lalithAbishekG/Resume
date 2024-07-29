@@ -49,6 +49,9 @@
     font-size: 19px;
   }
   
+  form .form{
+    max-width: 280px;
+  }
   .form, .address {
     display: flex;
     flex-direction: column;
@@ -63,6 +66,7 @@
     border-bottom: 2px solid #000;
     padding: 10px 0;
     margin: 5px 0;
+    width: 260px;
   }
   
   .usersubmit input {
@@ -88,7 +92,10 @@
       
 
     }
-  
+    
+    p{
+      font-size: 20px;
+    }
     
   }
   
@@ -101,6 +108,7 @@
   
   h4 {
     margin-bottom: 5px;
+    
   }
 
   .card h4{

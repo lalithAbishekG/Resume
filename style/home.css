@@ -166,6 +166,7 @@ hr {
   &:hover {
     background-color: #ffffff;
     color: #130057;
+    
   }
 
   .fa {
@@ -189,7 +190,7 @@ hr {
 
 #section_2 {
  
-  background-image: url('../assets/dd.png');
+  background-image: url('./assets/dd.png');
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
