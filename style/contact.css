@@ -64,7 +64,7 @@
   .form, .address {
     display: flex;
     flex-direction: column;
-    padding: 1rem 0 0;
+    padding: 0 0 0;
   }
   
   .form input, textarea {
@@ -129,4 +129,40 @@
   
 ::placeholder{
   color: #000;
+}
+
+@media screen and (max-width: 600px){
+  #section_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+ .container{
+  align-items: center;
+  justify-self: center;
+  
+ }
+
+ .contact{
+  flex-direction: column;
+ }
+  .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top:0px ;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    
+    
+    img{
+      display: none;
+    }
+  }
+
+  .address{
+    padding-left:0px;
+  }
 }
