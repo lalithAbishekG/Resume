@@ -131,7 +131,7 @@
   color: #000;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 2000px){
   #section_2{
     display: flex;
     align-items: center;

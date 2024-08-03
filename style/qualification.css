@@ -321,7 +321,7 @@ section#timeline {
   }
 
 
-  @media screen and (max-width :600px) {
+  @media screen and (max-width :2000px) {
     .footer{
       width: 100vh;
     }
