@@ -201,7 +201,11 @@ hr {
 
 }
 
-@media screen and (max-width: 2000px)  {
+@media only screen and (max-width :768px) {
+ 
+ *{
+  -ms-zoom: 100%;
+ }
   .menu_list{
     display: none;
   }
@@ -236,6 +240,8 @@ hr {
       font-size: 26px;
     }
   }
+
+  
   
 
   .section_1 {
@@ -247,6 +253,7 @@ hr {
     box-shadow: 0 5px 5px -5px #656565;  
     align-items: center; 
     background-attachment: fixed;  
+
     
   }
 

@@ -46,7 +46,7 @@
 
 .section_timeline{
     background-image: url('../assets/bg.svg');
-height: 230vh;
+height: 260vh;
 background-repeat: no-repeat;
 background-size: cover;
 box-shadow: 0 5px 5px -5px #656565;  
@@ -62,7 +62,8 @@ background-attachment: fixed;
 
 }
 section#timeline {
-    width: 80%;
+    padding-top: 40px;
+    width: 65%;
     margin: 20px auto;
     position: relative;
   }
@@ -70,7 +71,7 @@ section#timeline {
     content: '';
     display: block;
     position: absolute;
-    left: 50%;
+    left: 50.2%;
     top: 0;
     margin: 0 0 0 -1px;
     width: 2px;
@@ -321,7 +322,7 @@ section#timeline {
   }
 
 
-  @media screen and (max-width :2000px) {
+  @media only screen and (max-width :768px) {
     .footer{
       width: 100vh;
     }
